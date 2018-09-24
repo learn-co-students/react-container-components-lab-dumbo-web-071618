@@ -5,9 +5,10 @@ import LatestMovieReviewsContainer from './components/LatestMovieReviewsContaine
 import SearchableMovieReviewsContainer from './components/SearchableMovieReviewsContainer';
 
 ReactDOM.render(
-  <div className="app">
-    <SearchableMovieReviewsContainer />
-    <LatestMovieReviewsContainer />
-  </div>,
-  document.getElementById('root')
+	<div className="app">
+		<SearchableMovieReviewsContainer />
+		<h1>Latest Movie Reviews</h1>
+		<LatestMovieReviewsContainer />
+	</div>,
+	document.getElementById('root')
 );
